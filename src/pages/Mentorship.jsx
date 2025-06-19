@@ -6,7 +6,7 @@ const Mentorship=()=>{
          <div id="Home1">
             
               <p id="h5" style={{color:"white",fontSize:"58px"}}>Mentorship</p>
-              <p id="h4" style={{}} >Providing mentorship to professionals can have a profound and positive impact on professional journey. A mentor serves as a knowledgeable guide, offering valuable insights, practical advice, and real-world experience in the IT field. Through regular interactions and personalized support, mentors can help professionals navigate the complexities of their work, identify their strengths and improvement area, and  will them to climb corporate ladders. Mentor is not only fosters technical skills but also help to enhances soft skills like communication, problem-solving, and teamwork, which play a crucial role in corporate world.</p>
+              <p id="h4" style={{ textAlign:"justify"}} >Providing mentorship to professionals can have a profound and positive impact on professional journey. A mentor serves as a knowledgeable guide, offering valuable insights, practical advice, and real-world experience in the IT field. Through regular interactions and personalized support, mentors can help professionals navigate the complexities of their work, identify their strengths and improvement area, and  will them to climb corporate ladders. Mentor is not only fosters technical skills but also help to enhances soft skills like communication, problem-solving, and teamwork, which play a crucial role in corporate world.</p>
         </div>
 
 <section class="mentorship">
@@ -41,9 +41,9 @@ journey that equips them with the skills and mindset required to excel in this c
 
         <div>
             <div id="m2">
-                <div id="m3"><h1 id="m4">Get Connected With Our Mentees </h1></div>
+                <div id="m3"><h1 id="m4">Get Connected With  <br />Our Mentees </h1></div>
                 <div><p id="h9">Gain invaluable guidance and support from an software expert through personalized one-on-one sessions. Navigate the tech companies with confidence and kickstart your career by connecting with a mentor today.
-                   <br /> <br />  <button id="b2" onClick={() => document.getElementById("contact-container").scrollIntoView({ behavior: "smooth" })}>SIGN UP!</button>
+                   <br /> <br />  <button id="b2" onClick={() => document.getElementById("form").scrollIntoView({ behavior: "smooth" })}>SIGN UP!</button>
        </p></div>
             
             </div>

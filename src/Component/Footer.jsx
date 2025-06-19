@@ -2,8 +2,10 @@
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className="footer" style={{display:"flex",
+      justifyContent:"center"
+    }}>
+      {/* <div className="footer-container">
         <div className="footer-column">
           <h3 className="footer-heading">Company</h3>
           <p>About Us</p>
@@ -16,7 +18,7 @@ const Footer = () => {
           <p>Phone: +911234567899</p>
           <p>Location: XYZ, India</p>
         </div>
-        {/* <div className="footer-column">
+        <div className="footer-column">
           <h3 className="footer-heading">Follow Us</h3>
           <div className="footer-socials">
             <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -24,11 +26,10 @@ const Footer = () => {
             <a href="#"><i className="fab fa-linkedin-in"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
           </div>
-        </div> */}
-      </div>
-      <div className="footer-bottom">
+        </div>
+      </div> */}
+     
         &copy; {new Date().getFullYear()} Your Company. All rights reserved.
-      </div>
     </footer>
   );
 };

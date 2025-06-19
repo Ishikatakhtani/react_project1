@@ -3,7 +3,7 @@ import BacktoTop from "./BacktoTop";
 const Cto=()=>{
     return(
         <>
-        <div id="Home">
+        <div id="Home" style={{ backgroundColor: "#1a1a1a"}}>
            <p id="h2" style={{color:"white",paddingTop:"3%"}}>CTO as Service </p>   
            <p id="h10">Expanding organizations find it crucial to manage their technical
              aspects, necessitating the appointment of a Chief Technology Officer (CTO).

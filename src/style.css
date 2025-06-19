@@ -13,9 +13,9 @@ background-color: #1a1a1a;
 
 /* Parallax Block */
 #i2 {
-  width: 900px;
+  width: 90%;
   height: 400px;
-  background-image: url("https://thumbs.dreamstime.com/b/hands-computer-desk-using-laptop-rustic-wood-background-cup-tea-book-globe-glasses-53253551.jpg"); /* Replace with your image */
+  background-image: url("https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg"); /* Replace with your image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
@@ -70,11 +70,14 @@ background-color: #1a1a1a;
     padding-bottom: 5%;
 }
 #h5{
-    font-family: 'Open Sans', sans-serif;
-  text-align:center;
-    font-size: 26px; 
-     font-weight: 700;
-     padding-top: 5%;
+  padding-top: 5%;
+   font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+  color: #fff;
+  padding-bottom: 2%;
     
 }
 #h6{
@@ -181,10 +184,15 @@ textarea {
   background-color: #fff;
   color: #000;
   font-weight: 600;
-  padding: 12px 0;
+  padding: 10px 0;
   border: none;
   cursor: pointer;
   font-size: 16px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
 }
 
 
@@ -195,6 +203,8 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 500px;
+  background: linear-gradient(145deg, #ffffff, #f1f1f1);
+
 }
 #c2{
    padding-top: 3%;
@@ -208,7 +218,8 @@ max-width: 100%;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   padding: 40px 80px;
-  background-color: white;
+  background-color:linear-gradient(145deg, #ffffff, #f1f1f1);
+;
 }
 
 .course {
@@ -277,16 +288,16 @@ max-width: 100%;
 }
 #m3{
 
-    width: 900px;
+    width: 750px;
     
 }
 #m4{
    
-padding-left: 60%;
+padding-left: 40%;
 width: 750px;
 }
 #b2{
-     padding: 10px;
+     padding: 5px;
     color: white;
    background-color: blue;
     border:white double;
@@ -413,6 +424,10 @@ width: 750px;
   margin-top: 30px;
   font-size: 14px;
   color: #aaa;
+}
+
+#Home5{
+  background-color: "#1a1a1a"
 }
 
 
