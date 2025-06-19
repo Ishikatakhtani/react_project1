@@ -1,16 +1,21 @@
 import BacktoTop from "./BacktoTop";
 import  { useEffect } from 'react';
 import AOS from 'aos';
-
+import { Link, useNavigate } from "react-router-dom";
 import 'aos/dist/aos.css';
 
 const CTOAsService=()=>{
+   const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/#form"); // or whatever your route is
+  };
    useEffect(() => {
         AOS.init({ duration: 1000 }); 
       }, []);
   useEffect(() => {
     document.title = "CTO As Service | Yashwi Counsulting";
   }, []);
+  
     return(
         <>
         <div id="Home" style={{ backgroundColor: "#1a1a1a"}}>
@@ -44,7 +49,7 @@ organization, exploring alternative options becomes imperative. Some organizatio
       <h1 div data-aos="fade-down"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"> Why choose<br />us ?</h1>
-      <button id="b2"  onClick={() => document.getElementById("contact-container").scrollIntoView({ behavior: "smooth" })}>Get In Touch</button>
+      <button id="b2"  onClick={handleClick}>Get In Touch</button>
     </div>
     <div id="ct3">
       <p>

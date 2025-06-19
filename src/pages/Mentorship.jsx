@@ -1,9 +1,14 @@
 import BacktoTop from "./BacktoTop";
 import  { useEffect } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 const Mentorship=()=>{
+   const navigate = useNavigate();
   useEffect(() => {
       document.title = "Mentorship | Yashwi Counsulting";
     }, []);
+    const handleClick = () => {
+    navigate("/#form"); // or whatever your route is
+  };
     return(
         <>
          <div id="Home1">
@@ -44,9 +49,13 @@ journey that equips them with the skills and mindset required to excel in this c
 
         <div>
             <div id="m2">
-                <div id="m3"><h1 id="m4">Get Connected With  <br />Our Mentees </h1></div>
+                <div id="m3">
+             
+                   <h1 id="m4">Get Connected With  <br />Our Mentees </h1>
+                  
+                   </div>
                 <div><p id="h9">Gain invaluable guidance and support from an software expert through personalized one-on-one sessions. Navigate the tech companies with confidence and kickstart your career by connecting with a mentor today.
-                   <br /> <br />  <button id="b2" onClick={() => document.getElementById("form").scrollIntoView({ behavior: "smooth" })}>SIGN UP!</button>
+                   <br /> <br />  <button id="b2" onClick={handleClick}>SIGN UP!</button>
        </p></div>
             
             </div>
