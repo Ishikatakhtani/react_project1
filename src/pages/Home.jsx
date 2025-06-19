@@ -5,6 +5,11 @@ import BacktoTop from './BacktoTop';
 const Home=()=>{
      useEffect(() => {
     AOS.init({ duration: 1000 }); 
+  }, []
+,
+);
+useEffect(() => {
+    document.title = "Home | Yashwi Counsulting";
   }, []);
 
     return(
@@ -42,8 +47,12 @@ const Home=()=>{
                      <button id="b1" onClick={() => document.getElementById("form").scrollIntoView({ behavior: "smooth" })}>Get In Touch</button>
        
         </div>
-        <div>
-            <img src="https://inkbotdesign.com/wp-content/uploads/2022/08/concepts-drawing-app-for-ipads-1024x577.webp" alt="" style={{width:"100%", height:"600px"}}/>
+        <div >
+            <div id="i1">
+              
+  <div id="i4"  /> 
+  </div>
+           
         </div>
          <div id="Home2">
               <p id="h5" style={{color:"white"}}>OUR APPROACH </p>
@@ -58,7 +67,8 @@ const Home=()=>{
         </div>
 
 <div id="Home3" >
-    <div id="i3"><img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg" alt=""id="i3" div data-aos="flip-left"
+    <div id="i3"><img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg" alt=""id="i3" 
+    div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"/></div>
     <div id="h7" div data-aos="flip-left"
@@ -83,7 +93,7 @@ Bootcamps are personalized and intensive training sessions explicitly created to
     </div>
     <div id="i3" div data-aos="fade-down"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"><img src="https://images.pexels.com/photos/7504828/pexels-photo-7504828.jpeg" alt=""id="i3" /></div>
+     data-aos-duration="2000"><img src="https://images.pexels.com/photos/7862517/pexels-photo-7862517.jpeg" alt=""id="i3" /></div>
 </div>
 
 

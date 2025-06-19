@@ -1,11 +1,21 @@
 import BacktoTop from "./BacktoTop";
+import  { useEffect } from 'react';
+import AOS from 'aos';
 
-const Cto=()=>{
+import 'aos/dist/aos.css';
+
+const CTOAsService=()=>{
+   useEffect(() => {
+        AOS.init({ duration: 1000 }); 
+      }, []);
+  useEffect(() => {
+    document.title = "CTO As Service | Yashwi Counsulting";
+  }, []);
     return(
         <>
         <div id="Home" style={{ backgroundColor: "#1a1a1a"}}>
            <p id="h2" style={{color:"white",paddingTop:"3%"}}>CTO as Service </p>   
-           <p id="h10">Expanding organizations find it crucial to manage their technical
+           <p id="h10" style={{padding:"0 5%"}}>Expanding organizations find it crucial to manage their technical
              aspects, necessitating the appointment of a Chief Technology Officer (CTO).
               However, the endeavor of finding the right fit for this role presents challenges.
 <br /> <br />
@@ -31,7 +41,9 @@ organization, exploring alternative options becomes imperative. Some organizatio
 
            <div id="ct1">
     <div id="ct2">
-      <h1>Why choose<br />us ?</h1>
+      <h1 div data-aos="fade-down"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"> Why choose<br />us ?</h1>
       <button id="b2"  onClick={() => document.getElementById("contact-container").scrollIntoView({ behavior: "smooth" })}>Get In Touch</button>
     </div>
     <div id="ct3">
@@ -57,4 +69,4 @@ Choose us for your fractional CTO needs and experience the difference firsthand.
         </>
     )
 }
-export default Cto;
+export default CTOAsService;

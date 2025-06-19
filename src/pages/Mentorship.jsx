@@ -1,6 +1,9 @@
 import BacktoTop from "./BacktoTop";
-
+import  { useEffect } from 'react';
 const Mentorship=()=>{
+  useEffect(() => {
+      document.title = "Mentorship | Yashwi Counsulting";
+    }, []);
     return(
         <>
          <div id="Home1">

@@ -32,7 +32,7 @@ const Header=()=>{
             <Nav.Link as={Link} to="/Home" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Home</Nav.Link>
              <Nav.Link as={Link} to="/Courses" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Courses</Nav.Link>
               <Nav.Link as={Link} to="/Mentorship" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Mentorship</Nav.Link>
-               <Nav.Link as={Link} to="/Cto" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>CTO as Service</Nav.Link>
+               <Nav.Link as={Link} to="/CTOAsService" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>CTO as Service</Nav.Link>
  <Nav.Link as={Link} to="/Contact" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Contact Us</Nav.Link>
 
           </Nav>
