@@ -9,7 +9,7 @@ const Home=()=>{
 ,
 );
 useEffect(() => {
-    document.title = "Home | Yashwi Counsulting";
+    document.title = "Home | Yashika Counsulting";
   }, []);
 
     return(

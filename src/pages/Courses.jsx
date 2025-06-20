@@ -7,7 +7,7 @@ const Courses=()=>{
       AOS.init({ duration: 1000 }); 
     }, []);
     useEffect(() => {
-    document.title = "Courses | Yashwi Counsulting";
+    document.title = "Courses | Yashika Counsulting";
   }, []);
     return(
         <>

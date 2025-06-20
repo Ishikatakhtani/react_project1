@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Mentorship=()=>{
    const navigate = useNavigate();
   useEffect(() => {
-      document.title = "Mentorship | Yashwi Counsulting";
+      document.title = "Mentorship | Yashika Counsulting";
     }, []);
     const handleClick = () => {
     navigate("/#form"); // or whatever your route is
