@@ -13,7 +13,7 @@ const CTOAsService=()=>{
         AOS.init({ duration: 1000 }); 
       }, []);
   useEffect(() => {
-    document.title = "CTO As Service | Yashika Counsulting";
+    document.title = "CTO As Service | Yashika Counsulting Services";
   }, []);
   
   
