@@ -44,7 +44,7 @@ Step into the realm of creativity and innovation with our comprehensive Design a
   <div class="course" data-aos="fade-up"
      data-aos-duration="3000">
     <h3>Microservices</h3>
-    <p style={{paddingBottom:"1.5%"}}>
+    <p style={{paddingBottom:"1.2%"}}>
 Unleash the power of microservices and elevate your software mastery with our immersive course! Discover the cutting-edge world of microservices and learn to architect scalable, agile, and resilient applications that redefine the future of technology. Embrace the journey of innovation, scalability, and accelerated deployment as you dive into the realm of microservices. Join us today and take your software development skills to the next level!
     </p>
    <img src="https://static.wixstatic.com/media/nsplsh_107138d1cadc4ccba46e43adb8099206~mv2.jpg/v1/fill/w_716,h_424,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Growtika.jpg" alt="" />
