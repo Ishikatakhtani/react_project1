@@ -36,7 +36,7 @@ const Courses=()=>{
   <div class="course" data-aos="fade-up"
      data-aos-duration="3000">
     <h3>  Design & Architecture</h3>
-    <p>
+    <p style={{paddingBottom:"1%"}} >
 Step into the realm of creativity and innovation with our comprehensive Design and Architecture program. This enriching course is tailored for aspiring designers and architects, as well as professionals looking to enhance their skills. Dive into the world of aesthetic expression, sustainable design, and cutting-edge technologies that shape the structures of tomorrow.
     </p>
    <img src="https://static.wixstatic.com/media/nsplsh_108caa4c2b9c42c19a256c320b676e45~mv2.jpg/v1/fill/w_716,h_424,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Chase%20Chappell.jpg" alt="" />
@@ -44,7 +44,7 @@ Step into the realm of creativity and innovation with our comprehensive Design a
   <div class="course" data-aos="fade-up"
      data-aos-duration="3000">
     <h3>Microservices</h3>
-    <p>
+    <p style={{paddingBottom:"1.5%"}}>
 Unleash the power of microservices and elevate your software mastery with our immersive course! Discover the cutting-edge world of microservices and learn to architect scalable, agile, and resilient applications that redefine the future of technology. Embrace the journey of innovation, scalability, and accelerated deployment as you dive into the realm of microservices. Join us today and take your software development skills to the next level!
     </p>
    <img src="https://static.wixstatic.com/media/nsplsh_107138d1cadc4ccba46e43adb8099206~mv2.jpg/v1/fill/w_716,h_424,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image%20by%20Growtika.jpg" alt="" />

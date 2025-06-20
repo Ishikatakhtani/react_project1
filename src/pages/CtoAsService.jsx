@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const CTOAsService=()=>{
    const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/#form"); // or whatever your route is
+    navigate("/#contact-container"); // or whatever your route is
   };
    useEffect(() => {
         AOS.init({ duration: 1000 }); 
