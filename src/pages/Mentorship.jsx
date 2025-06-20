@@ -7,7 +7,7 @@ const Mentorship=()=>{
       document.title = "Mentorship | Yashika Counsulting Services";
     }, []);
     const handleClick = () => {
-    navigate("/#form"); // or whatever your route is
+    navigate("/#form"); 
   };
     return(
         <>
