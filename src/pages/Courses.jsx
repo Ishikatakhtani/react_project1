@@ -11,10 +11,9 @@ const Courses=()=>{
   }, []);
     return(
         <>
-       <div id="i2"   >
-        <img src="https://images.pexels.com/photos/5905712/pexels-photo-5905712.jpeg"
-         id="c2" alt="" />
-       </div>
+       <div id="i1">
+          <div id="i4" />
+        </div>
 
        <div class="course-grid"  >
   <div class="course" data-aos="fade-up"

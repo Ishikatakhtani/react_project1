@@ -15,11 +15,15 @@ background-color: #1a1a1a;
 #i2 {
   width: 90%;
   height: 400px;
-  background-image: url("https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg"); /* Replace with your image */
+  background-image: url("https://images.pexels.com/photos/5905712/pexels-photo-5905712.jpeg"); /* Replace with your image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
   border-radius: 10px;
+}
+
+#i5{
+  background-image: url("https://images.pexels.com/photos/5905712/pexels-photo-5905712.jpeg");
 }
 
 #h1{
