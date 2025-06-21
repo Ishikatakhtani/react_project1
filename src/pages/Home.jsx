@@ -32,8 +32,7 @@ const Home = () => {
           <p id="h2">WELCOME TO <br />TECHNICAL TRAINING</p>
           <p id="h3">A Personalized Approach to Learning</p>
           <p id="h4">
-            We specialize in delivering top-notch IT and soft skills training through personalized sessions and open batches. 
-            Our programs cater to learners of all levels, creating a flexible, convenient, and high-quality learning experience.
+           We are specialize in delivering top-notch IT and soft skills training to learners through both personalized sessions and open batches. Our priority lies in maintaining high-quality standards. Our training programs cater to individuals of all proficiency levels, be it beginners or seasoned experts. We foster a supportive learning environment that enables our community to study at their own convenience and from anywhere in the world, ensuring a comfortable and flexible learning experience.
           </p>
           <button id="b1" onClick={() => document.getElementById("form").scrollIntoView({ behavior: "smooth" })}>
             Get In Touch
@@ -44,8 +43,7 @@ const Home = () => {
       <div id="Home1">
         <p id="h5" style={{ color: "white" }}>ABOUT US</p>
         <p id="h4">
-          With 2 decades in IT, we've seen tech evolve drastically. We're now committed to helping others thrive in this space 
-          through tailored training programs. Let's reduce turnover and empower your growth journey.
+         With 2 decades of experience in the IT industry, we've witnessed significant technological disruptions in the past decades. Recognizing the growing demand for skilled professionals in cutting-edge technologies, we have chosen to redefine our path. Now, our passion lies in assisting others to thrive in this evolving landscape. Our ramp-up process is thoughtfully designed to empower your team and equip them with the necessary tools for success. We are eager to discuss with you how we can support your growth, reduce turnover, and set you on a path to sustainable success and profitability. Our unique and innovative approach offers users the chance to broaden their horizons and acquire new skills, all from the convenience of their own homes.
         </p>
         <button id="b1" onClick={() => document.getElementById("form").scrollIntoView({ behavior: "smooth" })}>
           Get In Touch
@@ -61,8 +59,8 @@ const Home = () => {
       <div id="Home2">
         <p id="h5" style={{ color: "white" }}>OUR APPROACH</p>
         <p id="h6">
-          We analyze your needs, deliver reports with plans, timelines, and offer quality products and services 
-          to drive success and growth.
+          We provide an all-encompassing consultation service aimed at identifying areas for improvement and potential opportunities. This includes a detailed report with a project plan outlining timelines, milestones, cost analysis, and a schedule. Additionally, we offer a range of high-quality products to expedite and streamline your journey towards success. Our commitment lies in ensuring your achievements through these comprehensive services and top-notch products.
+
         </p>
       </div>
 
@@ -80,8 +78,8 @@ const Home = () => {
         <div id="h7" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <p id="h3">CORPORATE TRAININGS</p>
           <p id="h8">
-            Hands-on curriculum built with industry needs in mind. We design programs with employers 
-            to ensure employees gain valuable, applicable skills.
+            Our hands-on curriculum, created by experienced IT professionals, encompasses a wide range of skills. We collaborate closely with employers to identify skill gaps that align with their specific business IT requirements. Through this collaborative effort, we design tailored training programs that benefit both employers and employees. Employers benefit by bridging the skill gaps within their workforce, while employees gain valuable knowledge and expertise, enabling them to advance both professionally and personally.
+
           </p>
         </div>
       </div>
@@ -90,7 +88,8 @@ const Home = () => {
         <div id="h7" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <p id="h3">BOOTCAMP</p>
           <p id="h8">
-            Intensive, practical training sessions guided by mentors to develop skills for real-world scenarios.
+            Bootcamps are personalized and intensive training sessions explicitly created to equip students with the practical skills needed for real-world development scenarios. These short-term programs are focused on not just theoretical learning but also immediate application of logic, guided by our experienced mentors.
+
           </p>
         </div>
         <div id="i3" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -116,7 +115,8 @@ const Home = () => {
         <div id="h7" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <p id="h3">BACK TO CORPORATE LIFE</p>
           <p id="h8">
-            Designed for women re-entering IT after a break. We help you get updated and prepared for today’s job market.
+           This program is specifically designed for women who have taken a break from the corporate world and now wish to reenter the IT industry. We assist them in getting up-to-date with the latest technologies, preparing them to confidently rejoin the IT workforce.
+
           </p>
         </div>
       </div>
@@ -125,7 +125,8 @@ const Home = () => {
         <div id="h7" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <p id="h3">Campus to Corporate</p>
           <p id="h8">
-            Mentorship programs for engineering, BCA, and MCA students, preparing them for placements and IT industry demands.
+           The mentorship program is aimed at supporting engineering, BCA, and MCA students in preparing for job placements and meeting the demands of the IT industry.
+           
           </p>
         </div>
         <div id="i3" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">

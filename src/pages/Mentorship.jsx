@@ -40,8 +40,8 @@ journey that equips them with the skills and mindset required to excel in this c
    <img src="https://static.wixstatic.com/media/11062b_7674c3caf4e44ef59438591a09bb5170~mv2.jpg/v1/fill/w_348,h_348,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Chess.jpg" alt="" />
     <h3>Leadership Management</h3>
     <p>
-     Effective leadership is not merely about guiding and directing others; it is a holistic approach that fosters growth, inspires innovation, and builds meaningful connections. Through mentorship, We aim to cultivate 
-     a new generation of leaders who not only excel in their roles but also lift others up along the way,
+    Providing mentorship to professionals can have a profound and positive impact on professional journey. A mentor serves as a knowledgeable guide, offering valuable insights, practical advice, and real-world experience in the IT field. Through regular interactions and personalized support, mentors can help professionals navigate the complexities of their work, identify their strengths and improvement area, and  will them to climb corporate ladders. Mentor is not only fosters technical skills but also help to enhances soft skills like communication, problem-solving, and teamwork, which play a crucial role in corporate world.
+    
     </p>
   </div>
 </section>
