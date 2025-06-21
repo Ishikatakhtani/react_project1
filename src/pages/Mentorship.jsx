@@ -55,7 +55,7 @@ journey that equips them with the skills and mindset required to excel in this c
                   
                    </div>
                 <div><p id="h9">Gain invaluable guidance and support from an software expert through personalized one-on-one sessions. Navigate the tech companies with confidence and kickstart your career by connecting with a mentor today.
-                   <br /> <br />  <button id="b2" onClick={handleClick}>SIGN UP!</button>
+                   <br /> <br />  <button id="b2" onClick={handleClick}>Get In Touch</button>
        </p></div>
             
             </div>

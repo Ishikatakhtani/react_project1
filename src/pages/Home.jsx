@@ -76,7 +76,7 @@ const Home = () => {
           />
         </div>
         <div id="h7" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-          <p id="h3">CORPORATE TRAININGS</p>
+          <p id="h3">CORPORATE TRAININGS &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</p>
           <p id="h8">
             Our hands-on curriculum, created by experienced IT professionals, encompasses a wide range of skills. We collaborate closely with employers to identify skill gaps that align with their specific business IT requirements. Through this collaborative effort, we design tailored training programs that benefit both employers and employees. Employers benefit by bridging the skill gaps within their workforce, while employees gain valuable knowledge and expertise, enabling them to advance both professionally and personally.
 
@@ -113,7 +113,7 @@ const Home = () => {
           />
         </div>
         <div id="h7" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-          <p id="h3">BACK TO CORPORATE LIFE</p>
+          <p id="h3"> BACK TO CORPORATE LIFE &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</p>
           <p id="h8">
            This program is specifically designed for women who have taken a break from the corporate world and now wish to reenter the IT industry. We assist them in getting up-to-date with the latest technologies, preparing them to confidently rejoin the IT workforce.
 
@@ -123,7 +123,7 @@ const Home = () => {
 
       <div id="Home3">
         <div id="h7" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-          <p id="h3">Campus to Corporate</p>
+          <p id="h3">Campus to Corporate &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</p>
           <p id="h8">
            The mentorship program is aimed at supporting engineering, BCA, and MCA students in preparing for job placements and meeting the demands of the IT industry.
            
