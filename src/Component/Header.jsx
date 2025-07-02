@@ -26,7 +26,7 @@ const Header=()=>{
     <Navbar expand="lg" style={{ backgroundColor: "#1a1a1a" }}>
       <Container>
         {/* <Navbar.Brand href="#home" style={{ color: "white", fontFamily:"Butler", paddingRight:"26%"}}>CAFE </Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: "white" }}  />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >
             <Nav.Link as={Link} to="/Home" style={{color:"white",fontFamily:"Georgia",fontSize:"18px"}}>Home</Nav.Link>
