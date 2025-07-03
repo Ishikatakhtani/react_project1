@@ -11,9 +11,11 @@ const Mentorship=()=>{
   };
     return(
         <>
-         <div id="Home1">
+         <div id="Home1" 
+        //  change
+         style={{paddingBottom:"1.5%"}}>
             
-              <p id="h5" style={{color:"white",fontSize:"58px"}}>Mentorship</p>
+              <p id="h5" style={{color:"white",fontSize:"58px", paddingBottom:"1%",paddingTop:"1.5%"}}>Mentorship</p>
               <p id="h4" style={{ textAlign:"justify"}} >Providing mentorship to professionals can have a profound and positive impact on professional journey. A mentor serves as a knowledgeable guide, offering valuable insights, practical advice, and real-world experience in the IT field. Through regular interactions and personalized support, mentors can help professionals navigate the complexities of their work, identify their strengths and improvement area, and  will them to climb corporate ladders. Mentor is not only fosters technical skills but also help to enhances soft skills like communication, problem-solving, and teamwork, which play a crucial role in corporate world.</p>
         </div>
 
