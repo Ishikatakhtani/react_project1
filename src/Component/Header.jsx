@@ -12,17 +12,13 @@ import AOS from 'aos';
 const Header=()=>{
   useEffect(() => {
         AOS.init({
-          duration: 1000, // Animation duration in milliseconds
-          once: true,     // Whether animation should happen only once - while scrolling down
+          duration: 1000, 
+          once: true,     
         });
       }, []);
     return(
         <>
-        {/* <div id='header1' style={{display:"flex", justifyContent:"center",alignItems:"center"}}>
-            <h4>WIX <PiLineVertical  size={28}/></h4> 
-             <p style={{paddingTop:"0.5%", paddingRight:"0.5%"}} >This website is build on VIX create yours Today.</p> 
-             <button style={{borderRadius:"25%" , border:"solid ,blue", color:'blue'}}>Get Started</button>
-        </div> */}
+        
     <Navbar expand="lg" style={{ backgroundColor: "#1a1a1a" }}>
       <Container>
         {/* <Navbar.Brand href="#home" style={{ color: "white", fontFamily:"Butler", paddingRight:"26%"}}>CAFE </Navbar.Brand> */}
