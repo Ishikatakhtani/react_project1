@@ -44,8 +44,8 @@ organization, exploring alternative options becomes imperative. Some organizatio
 
 </p>
           
-
-           <div id="ct1">
+{/* //change */}
+           <div id="ct1" style={{paddingBottom:"1%"}}>
     <div id="ct2">
       <h1 div data-aos="fade-down"
      data-aos-easing="ease-out-cubic"
