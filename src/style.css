@@ -549,7 +549,10 @@ width: 750px;
   background-attachment: fixed; 
   border-radius: 10px;
 }
-  
+
+.footer{
+  padding-top: 1%;
+}
   #c1, #c2 {
     flex-direction: column;
     height: auto;
