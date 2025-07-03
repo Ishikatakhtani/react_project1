@@ -539,6 +539,16 @@ width: 750px;
   .contact-container {
     padding: 0%;
   }
+
+  #i4 {
+  width: 90%;
+  height: 400px;
+  background-image: url("https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg"); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  border-radius: 10px;
+}
   
   #c1, #c2 {
     flex-direction: column;
